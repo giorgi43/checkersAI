@@ -44,6 +44,7 @@ static void move_game_states(const Game* game, const Move* move, vector* game_st
     if (!move_is_jump(move)) return;
     // if move is jump but there is no more moves return
     if (!multi_jump_required(game, move)) return;
+	VectorDelete(game_states, VectorLength(game_states)-1);
     vector* moves = all_moves_for_piece(&new_game_state, &move->dest);
     for (int i = 0; i < VectorLength(moves); i++) {
         const Move* mv = VectorNth(moves, i);
