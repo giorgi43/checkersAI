@@ -1,5 +1,5 @@
 # checkersAI
-Play checkers against your computer that uses basic [Minimax](https://en.wikipedia.org/wiki/Minimax) algorithm.
+Play checkers against your computer that uses [Minimax](https://en.wikipedia.org/wiki/Minimax) algorithm.
 
 <p align="center">
   <img src="samples/program_sample.png" alt="Program preview" width="350" >
